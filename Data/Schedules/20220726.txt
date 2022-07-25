@@ -1,0 +1,73 @@
+Visit Information for OP Package 2220703f02
+
+VISIT ID       PCS MODE    VISIT TYPE                     SCHEDULED START TIME  DURATION     SCIENCE INSTRUMENT AND MODE                         TARGET NAME                      CATEGORY                        KEYWORDS                        
+-------------  ----------  -----------------------------  --------------------  -----------  --------------------------------------------------  -------------------------------  ------------------------------  --------------------------------
+1538:17:1      FINEGUIDE   PRIME TARGETED FIXED           2022-07-26T03:27:21Z  00/01:14:14  MIRI Imaging                                        HD167060                         Star                            G dwarfs
+1483:116:1     NONE        PARALLEL DARK CALIBRATION      ^ATTACHED TO PRIME^                NIRCam Dark                                       
+1488:1:1       NONE        PARALLEL SLEW CALIBRATION      ^ATTACHED TO PRIME^                NIRSpec Internal Lamp                             
+2741:16:1      NONE        PRIME UNTARGETED               2022-07-26T04:42:28Z  00/00:02:27  MIRI External Flat                                
+1647:1:1       FINEGUIDE   PRIME TARGETED FIXED           2022-07-26T05:40:54Z  00/01:19:26  NIRSpec Bright Object Time Series                   WD0145+234                       Star                            Circumstellar dust, Circumstellar gas, White dwarfs
+1647:3:1       FINEGUIDE   PRIME TARGETED FIXED           2022-07-26T07:06:45Z  00/01:35:47  MIRI Medium Resolution Spectroscopy                 WD0145+234                       Star                            Circumstellar dust, Circumstellar gas, White dwarfs
+1483:65:1      NONE        PARALLEL DARK CALIBRATION      ^ATTACHED TO PRIME^                NIRCam Dark                                       
+1227:14:1      FINEGUIDE   PRIME TARGETED FIXED           2022-07-26T09:25:39Z  00/02:09:29  NIRSpec MultiObject Spectroscopy                    NGC-346-SHORT                                                    
+                           COORDINATED PARALLEL                                              NIRCam Imaging                                    
+2742:42:1      NONE        PRIME UNTARGETED               2022-07-26T11:36:01Z  00/00:05:57  NIRSpec Dark                                      
+1373:29:1      MOVING      PRIME TARGETED MOVING          2022-07-26T12:19:31Z  00/00:49:11  MIRI Medium Resolution Spectroscopy                 BG-GANYMEDE+20N                  Solar System                    Offset
+1539:6:1       FINEGUIDE   PRIME TARGETED FIXED           2022-07-26T13:51:08Z  00/00:27:12  MIRI Medium Resolution Spectroscopy                 HD163466                         Star                            A dwarfs
+1483:50:1      NONE        PARALLEL DARK CALIBRATION      ^ATTACHED TO PRIME^                NIRCam Dark                                       
+1486:2:1       NONE        PARALLEL SLEW CALIBRATION      ^ATTACHED TO PRIME^                NIRSpec Internal Lamp                             
+1539:64:1      FINEGUIDE   PRIME TARGETED FIXED           2022-07-26T14:23:43Z  00/00:12:43  MIRI Medium Resolution Spectroscopy                 HD163466-BKG                     Star                            A dwarfs
+1528:2:1       FINEGUIDE   PRIME TARGETED FIXED           2022-07-26T14:41:17Z  00/01:12:18  MIRI Low Resolution Spectroscopy                    HD163466                         Star                            A dwarfs
+1483:41:1      NONE        PARALLEL DARK CALIBRATION      ^ATTACHED TO PRIME^                NIRCam Dark                                       
+1484:173:1     NONE        PARALLEL DARK CALIBRATION      ^ATTACHED TO PRIME^                NIRSpec Dark                                      
+2741:15:1      NONE        PRIME UNTARGETED               2022-07-26T15:54:28Z  00/00:02:27  MIRI External Flat                                
+2725:387:1     FINEGUIDE   PRIME WFSC ROUTINE             2022-07-26T16:09:55Z  00/01:32:08  WFSC NIRCam Fine Phasing                            2MASS-16491200+6247177           Calibration                     Focus test
+1762:1:1       FINEGUIDE   PRIME TARGETED FIXED           2022-07-26T17:52:57Z  00/02:25:55  MIRI Medium Resolution Spectroscopy                 XFLS-IRS15967Z0.579              Galaxy                          Active galaxies, High-redshift galaxies, Infrared galaxies, Starburst galaxies, Ultraluminous infrared galaxies
+1483:48:1      NONE        PARALLEL DARK CALIBRATION      ^ATTACHED TO PRIME^                NIRCam Dark                                       
+1366:1:1       FINEGUIDE   PRIME TARGETED FIXED           2022-07-26T20:53:14Z  00/08:41:59  NIRISS Single-Object Slitless Spectroscopy          WASP-39                          Star                            Exoplanet Systems
+2692:1:1       FINEGUIDE   PRIME TARGETED FIXED           2022-07-27T06:02:32Z  00/00:37:12  NIRCam Imaging                                      LAWD-66-SOURCE                   Star                            K dwarfs
+1373:5:1       MOVING      PRIME TARGETED MOVING          2022-07-27T08:22:00Z  00/01:30:13  NIRSpec IFU Spectroscopy                            JUPITER-GRS                      Solar System                    Feature
+1373:6:1       MOVING      PRIME TARGETED MOVING          2022-07-27T09:57:28Z  00/00:21:27  NIRCam Imaging                                      JUPITER                          Solar System                    Planet
+1373:8:1       MOVING      PRIME TARGETED MOVING          2022-07-27T10:21:46Z  00/00:14:53  NIRCam Imaging                                      JUPITER                          Solar System                    Planet
+1355:13:1      FINEGUIDE   PRIME TARGETED FIXED           2022-07-27T11:12:21Z  00/02:20:30  MIRI Medium Resolution Spectroscopy                 SPT0418-47-IFU                   Galaxy                          High-redshift galaxies
+                                                                                                                                                 SPT0418-47-IFU-OFFSET            Galaxy                          High-redshift galaxies
+1483:38:1      NONE        PARALLEL DARK CALIBRATION      ^ATTACHED TO PRIME^                NIRCam Dark                                       
+1484:18:1      NONE        PARALLEL DARK CALIBRATION      ^ATTACHED TO PRIME^                NIRSpec Dark                                      
+1349:58:1      FINEGUIDE   PRIME TARGETED FIXED           2022-07-27T14:29:47Z  00/02:19:01  MIRI Imaging                                        WR140                            Star                            WC stars
+1483:49:1      NONE        PARALLEL DARK CALIBRATION      ^ATTACHED TO PRIME^                NIRCam Dark                                       
+1484:172:1     NONE        PARALLEL DARK CALIBRATION      ^ATTACHED TO PRIME^                NIRSpec Dark                                      
+1373:7:1       MOVING      PRIME TARGETED MOVING          2022-07-27T20:13:17Z  00/00:21:27  NIRCam Imaging                                      JUPITER                          Solar System                    Planet
+1373:9:1       MOVING      PRIME TARGETED MOVING          2022-07-27T20:38:47Z  00/00:14:53  NIRCam Imaging                                      JUPITER                          Solar System                    Planet
+2416:3:1       MOVING      PRIME TARGETED MOVING          2022-07-27T21:09:48Z  00/01:33:25  NIRSpec IFU Spectroscopy                            39P                              Solar System                    Comet
+2416:4:1       MOVING      PRIME TARGETED MOVING          2022-07-27T22:49:15Z  00/01:33:25  NIRSpec IFU Spectroscopy                            39P-OFFSET                       Solar System                    Comet
+1507:1:1       FINEGUIDE   PRIME TARGETED FIXED           2022-07-28T01:01:31Z  00/00:40:48  NIRISS External Calibration                         TYC-4227-658-1                   Star                            A dwarfs
+1520:5:1       NONE        PARALLEL SLEW CALIBRATION      ^ATTACHED TO PRIME^                MIRI Anneal                                       
+1246:1:1       MOVING      PRIME TARGETED MOVING          2022-07-28T03:46:50Z  00/01:02:03  MIRI Medium Resolution Spectroscopy                 JUPITER-GRSEAST                  Solar System                    Feature
+1246:2:1       MOVING      PRIME TARGETED MOVING          2022-07-28T04:52:56Z  00/00:59:18  MIRI Medium Resolution Spectroscopy                 JUPITER-GRS                      Solar System                    Feature
+1246:3:1       MOVING      PRIME TARGETED MOVING          2022-07-28T05:59:02Z  00/00:59:18  MIRI Medium Resolution Spectroscopy                 JUPITER-GRSWEST                  Solar System                    Feature
+1246:4:1       MOVING      PRIME TARGETED MOVING          2022-07-28T07:05:08Z  00/00:18:05  MIRI Medium Resolution Spectroscopy                 BACKGROUND                       Solar System                    Planet
+1364:4:1       FINEGUIDE   PRIME TARGETED FIXED           2022-07-28T08:22:41Z  00/00:22:02  NIRSpec IFU Spectroscopy                            2MASS-J15395077-3404566          Star                            M giants
+1483:68:1      NONE        PARALLEL DARK CALIBRATION      ^ATTACHED TO PRIME^                NIRCam Dark                                       
+1045:89:1      FINEGUIDE   PRIME TARGETED FIXED           2022-07-28T09:15:26Z  00/01:08:24  MIRI Coronagraphic Imaging                          HD-92209-COPY                    Star                            K stars
+2741:17:1      NONE        PRIME UNTARGETED               2022-07-28T10:24:43Z  00/00:02:27  MIRI External Flat                                
+1189:10:1      FINEGUIDE   PRIME TARGETED FIXED           2022-07-28T11:22:25Z  00/01:53:11  NIRCam Imaging                                      J182831.08+265037.7              Star                            Brown dwarfs
+1484:171:1     NONE        PARALLEL DARK CALIBRATION      ^ATTACHED TO PRIME^                NIRSpec Dark                                      
+1189:11:1      FINEGUIDE   PRIME TARGETED FIXED           2022-07-28T13:20:50Z  00/02:00:25  NIRSpec Fixed Slit Spectroscopy                     J182831.08+265037.7              Star                            Brown dwarfs
+1483:60:1      NONE        PARALLEL DARK CALIBRATION      ^ATTACHED TO PRIME^                NIRCam Dark                                       
+1189:16:1      FINEGUIDE   PRIME TARGETED FIXED           2022-07-28T15:28:32Z  00/01:13:13  MIRI Medium Resolution Spectroscopy                 J182831.08+265037.7              Star                            Brown dwarfs
+1483:66:1      NONE        PARALLEL DARK CALIBRATION      ^ATTACHED TO PRIME^                NIRCam Dark                                       
+1189:17:1      FINEGUIDE   PRIME TARGETED FIXED           2022-07-28T16:47:13Z  00/01:02:50  NIRISS Aperture Masking Interferometry              J182831.08+265037.7              Star                            Brown dwarfs
+1483:67:1      NONE        PARALLEL DARK CALIBRATION      ^ATTACHED TO PRIME^                NIRCam Dark                                       
+1484:19:1      NONE        PARALLEL DARK CALIBRATION      ^ATTACHED TO PRIME^                NIRSpec Dark                                      
+2742:2:1       NONE        PRIME UNTARGETED               2022-07-28T17:50:56Z  00/00:07:04  NIRSpec Dark                                      
+2726:37:1      FINEGUIDE   PRIME WFSC ROUTINE             2022-07-28T18:08:12Z  00/01:32:08  WFSC NIRCam Fine Phasing                            2MASS-18341723+3000239           Calibration                     Focus test
+1373:10:1      MOVING      PRIME TARGETED MOVING          2022-07-28T20:27:06Z  00/00:48:23  NIRCam Imaging                                      JUPITER                          Solar System                    Planet
+1305:1:1       FINEGUIDE   PRIME TARGETED FIXED           2022-07-28T21:40:13Z  00/00:44:47  NIRCam Imaging                                      ANDROMEDA-I                      Galaxy                          Dwarf galaxies, Dwarf spheroidal galaxies
+                           COORDINATED PARALLEL                                              NIRISS Imaging                                    
+1305:2:1       FINEGUIDE   PRIME TARGETED FIXED           2022-07-28T22:38:34Z  00/00:44:47  NIRCam Imaging                                      ANDROMEDA-III                    Galaxy                          Dwarf galaxies, Dwarf spheroidal galaxies
+                           COORDINATED PARALLEL                                              NIRISS Imaging                                    
+1305:3:1       FINEGUIDE   PRIME TARGETED FIXED           2022-07-28T23:36:20Z  00/00:44:47  NIRCam Imaging                                      ANDROMEDA-XIV                    Galaxy                          Dwarf galaxies, Dwarf spheroidal galaxies
+                           COORDINATED PARALLEL                                              NIRISS Imaging                                    
+1305:4:1       FINEGUIDE   PRIME TARGETED FIXED           2022-07-29T00:38:06Z  00/00:44:47  NIRCam Imaging                                      ANDROMEDA-XVII                   Galaxy                          Dwarf galaxies, Dwarf spheroidal galaxies
+                           COORDINATED PARALLEL                                              NIRISS Imaging                                    
+1373:12:1      MOVING      PRIME TARGETED MOVING          2022-07-29T01:50:44Z  00/00:48:23  NIRCam Imaging                                      JUPITER                          Solar System                    Planet

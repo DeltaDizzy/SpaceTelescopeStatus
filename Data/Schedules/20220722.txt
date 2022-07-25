@@ -1,0 +1,22 @@
+Visit Information for OP Package 2220304f02
+
+VISIT ID       PCS MODE    VISIT TYPE                     SCHEDULED START TIME  DURATION     SCIENCE INSTRUMENT AND MODE                         TARGET NAME                      CATEGORY                        KEYWORDS                        
+-------------  ----------  -----------------------------  --------------------  -----------  --------------------------------------------------  -------------------------------  ------------------------------  --------------------------------
+2741:14:1      NONE        PRIME UNTARGETED               2022-07-22T08:22:30Z  00/00:02:27  MIRI External Flat                                
+2725:417:1     FINEGUIDE   PRIME WFSC ROUTINE             2022-07-22T08:37:16Z  00/01:32:08  WFSC NIRCam Fine Phasing                            2MASS-17114881+1109085           Calibration                     Focus test
+1516:2:1       FINEGUIDE   PRIME TARGETED FIXED           2022-07-22T10:38:42Z  00/03:50:08  NIRISS Aperture Masking Interferometry              HD-163466                        Star                            A dwarfs
+1520:4:1       NONE        PARALLEL SLEW CALIBRATION      ^ATTACHED TO PRIME^                MIRI Anneal                                       
+1802:15:1      FINEGUIDE   PRIME TARGETED FIXED           2022-07-22T15:09:15Z  00/02:50:28  NIRSpec IFU Spectroscopy                            IRAS16253                        Star                            Protostars, Young stellar objects
+1366:2:1       FINEGUIDE   PRIME TARGETED FIXED           2022-07-22T19:09:32Z  00/08:30:22  NIRCam Grism Time Series                            WASP-39                          Star                            Exoplanet Systems
+1802:13:1      FINEGUIDE   PRIME TARGETED FIXED           2022-07-23T04:04:41Z  00/05:54:16  MIRI Medium Resolution Spectroscopy                 IRAS16253-SPECTROSCOPY           Star                            Protostars, Young stellar objects
+1802:14:1      FINEGUIDE   PRIME TARGETED FIXED           2022-07-23T10:02:33Z  00/01:32:46  MIRI Medium Resolution Spectroscopy                 IRAS16253-BACKGROUND             Calibration                     Telescope/sky background
+1524:15:1      FINEGUIDE   PRIME TARGETED FIXED           2022-07-23T12:26:19Z  00/00:28:49  MIRI Medium Resolution Spectroscopy                 10LAC-BKG                        Calibration                     Telescope/sky background
+1524:16:1      FINEGUIDE   PRIME TARGETED FIXED           2022-07-23T12:59:00Z  00/08:22:22  MIRI Medium Resolution Spectroscopy                 10LAC                            Calibration                     Astrometric, Point spread function, Spectrophotometric
+                           COORDINATED PARALLEL                                              FGS External Calibration                          
+1524:17:1      FINEGUIDE   PRIME TARGETED FIXED           2022-07-23T21:28:01Z  00/01:21:47  MIRI Medium Resolution Spectroscopy                 10LAC                            Calibration                     Astrometric, Point spread function, Spectrophotometric
+                           COORDINATED PARALLEL                                              FGS External Calibration                          
+1334:5:1       FINEGUIDE   PRIME TARGETED FIXED           2022-07-23T23:23:16Z  00/15:30:50  NIRCam Imaging                                      WLM                              Galaxy                          Dwarf galaxies, Dwarf irregular galaxies
+                           COORDINATED PARALLEL                                              NIRISS Imaging                                    
+2726:492:1     FINEGUIDE   PRIME WFSC ROUTINE             2022-07-24T15:04:35Z  00/01:32:08  WFSC NIRCam Fine Phasing                            2MASS-23545446-1907498           Calibration                     Focus test
+2593:1:1       FINEGUIDE   PRIME TARGETED FIXED           2022-07-24T17:01:44Z  00/17:28:59  NIRSpec MultiObject Spectroscopy                    Q2343-22J7-TAJ10-WBS-CONJ28-M25                                  
+2593:1:2       FINEGUIDE   PRIME TARGETED FIXED           2022-07-25T10:31:36Z  00/16:02:48  NIRSpec MultiObject Spectroscopy                    Q2343-22J7-TAJ10-WBS-CONJ28-M25                                  
