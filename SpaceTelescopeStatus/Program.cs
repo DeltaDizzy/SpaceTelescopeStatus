@@ -8,6 +8,12 @@ using System.Reflection;
 
 public class Program
 {
+    // TODO: Support simultaneous visits
+    // that will entail supporting ATTACHED TO PRIME start times
+    // will probably have to move visit parsing outside the constructor
+    // TODO: support missing columns in visit strings
+    // TODO: Clean up the code
+
     public static Task Main(string[] args) => new Program().MainAsync();
 
     private DiscordSocketClient _client;
@@ -121,7 +127,7 @@ public class Program
         embed.Description = "What is JWST looing at now?";
         if (visit.TargetName != "N/A")
         {
-            embed.AddField("Proposal ID", visit.VisitID[0..4], inline: true);
+            embed.AddField("Proposal ID", @$"[{visit.VisitID}](https://www.stsci.edu/jwst/phase2-public/{visit.VisitID[0..4]}.pdf)", inline: true);
             embed.AddField("Target", visit.TargetName, inline: true);
             embed.AddField("Instrument+Mode", visit.InstrumentMode, inline: true);
             embed.AddField("Start Time", startTimeTimestamp, inline: true);
