@@ -4,6 +4,7 @@ using Discord.Net;
 using Discord.WebSocket;
 using HtmlAgilityPack;
 using Newtonsoft.Json;
+using SpaceTelescopeStatus;
 using System.Reflection;
 
 public class Program
@@ -18,7 +19,7 @@ public class Program
 
     private DiscordSocketClient _client;
     Timer scrapeTimer;
-    List<JWSTVisit> webbVisits = new List<JWSTVisit>();
+    VisitManager visitManager = new VisitManager();
     string dataDirPath = "";
     
     public async Task MainAsync()
@@ -37,6 +38,8 @@ public class Program
         _client = new DiscordSocketClient();
         _client.Log += Log;
         _client.MessageReceived += HandleTextCommands;
+        _client.Ready += CreateSlashCommands;
+        _client.SlashCommandExecuted += SlashCommandHandler;
         string token = File.ReadAllText(Path.Combine(dataDirPath, "token.txt"));
         await _client.LoginAsync(TokenType.Bot, token);
         await _client.StartAsync();
@@ -91,8 +94,6 @@ public class Program
             var json = JsonConvert.SerializeObject(e.Errors, Formatting.Indented);
             Console.WriteLine(json);
         }
-
-        
     }
 
     private async Task SlashCommandHandler(SocketSlashCommand command)
@@ -125,7 +126,7 @@ public class Program
         embed.Title = "JWST Live";
         embed.Color = 0xffdd19;
         embed.Description = "What is JWST looing at now?";
-        if (visit.TargetName != "N/A")
+        if (visit.VisitOngoing)
         {
             embed.AddField("Proposal ID", @$"[{visit.VisitID}](https://www.stsci.edu/jwst/phase2-public/{visit.VisitID[0..4]}.pdf)", inline: true);
             embed.AddField("Target", visit.TargetName, inline: true);
@@ -138,6 +139,7 @@ public class Program
         else
         {
             embed.AddField("JWST is currently in-between targets.", "Please try again later.");
+            //embed.AddField()
         }
         
         return embed.Build();
@@ -145,7 +147,7 @@ public class Program
 
     private JWSTVisit GetCurrentVisit()
     {
-        var visitsByDateTime = webbVisits.OrderByDescending(k => k.ScheduledStartTime);
+        var visitsByDateTime = visitManager.GetOrderedVisits();
         foreach (JWSTVisit visit in visitsByDateTime)
         {
             // if we are AFTER start_time but BEFORE start_time + duration, the visit is right now
@@ -161,7 +163,7 @@ public class Program
             }
         }
         // if there are no matching visits, return an idk visit
-        return new JWSTVisit("");
+        return new JWSTVisit(false);
     }
 
     private void SetupFolders()
@@ -229,13 +231,15 @@ public class Program
             await Log(new LogMessage(LogSeverity.Info, "scraper", "file header removed"));
             foreach (string line in lines)
             {
-                JWSTVisit visit = new JWSTVisit(line);
-                await Log(new LogMessage(LogSeverity.Info, "scraper", $"visit {webbVisits.Count + 1} created"));
-                webbVisits.Add(visit);
+                //visitManager.AddVisit(line);
+                visitManager.AddVisitByIndex(line);
+                //JWSTVisit visit = new JWSTVisit(line);
+                await Log(new LogMessage(LogSeverity.Info, "scraper", $"visit {visitManager.GetVisitCount() + 1} created"));
+                
             }
         }
         // remove all non-prime visits
-        webbVisits.RemoveAll(j => j.ScheduledStartTime == DateTime.MaxValue);
+        //visitManager.Visits.RemoveAll(j => j.ScheduledStartTime == DateTime.MaxValue);
 
         Console.WriteLine("done!");
     }
